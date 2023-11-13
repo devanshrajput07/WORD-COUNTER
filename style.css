@@ -4,13 +4,39 @@
 }
 
 body {
-    padding: 45px 100px;
+    padding: 30px 50px;
+    background: wheat;
+}
+
+.btn {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    border: 2px solid grey;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+#yellowgreen {
+    background-color: yellowgreen;
+}
+
+#aqua {
+    background-color: aquamarine;
+}
+
+#violet {
+    background-color: violet;
+}
+
+#salmon {
+    background-color: salmon;
 }
 
 h1 {
     text-align: center;
     background-color: #0067B0;
-    color: white;
+    color: yellowgreen;
     padding: 10px;
 }
 
@@ -26,5 +52,5 @@ p {
     font-size: 25px;
     font-weight: bold;
     padding: 10px;
-    color: white;
+    color: yellowgreen;
 }

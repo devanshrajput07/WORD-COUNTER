@@ -1,3 +1,7 @@
+function changeBG(color) {
+    document.body.style.backgroundColor = color;
+}
+
 let textbox = document.getElementById('textbox');
 
 textbox.addEventListener('input', function () {
